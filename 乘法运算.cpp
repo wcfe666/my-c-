@@ -3,6 +3,7 @@
 //声明：代码过旧，错误代码：c4996
 //暂无解决方案
 #include<stdio.h>     //预运算
+#pragma warning(disable : 4996)//关闭C4996警告
 int main()    //函数开始
 {
 	float fi;   //定义多个函数
